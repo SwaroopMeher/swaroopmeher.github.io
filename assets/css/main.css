@@ -4723,10 +4723,25 @@ input, select, textarea {
 		border: 2px solid white;
 	  }
 
+	  .certifications{
+		display: flex; 
+		justify-content: space-between;
+		color: white;
+	  }
+
+	  @media screen and (max-width: 870px) {
+
+		.certifications{
+			display: block;
+		}
+
+	}
+
 	  @media screen and (max-width: 480px) {
 
 		#cert {
 			width: 100%;
+			display: block;
 		}
 
 	}
