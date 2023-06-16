@@ -3469,8 +3469,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#intro {
-				padding: 3rem 2rem 1rem 2rem ;
-				min-height: 80vh;
+				padding: 1rem 2rem 1rem 2rem ;
+				min-height: 50vh;
 			}
 
 				#intro h1 {
@@ -4718,4 +4718,15 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 1;
+		padding: 1rem 4rem 1rem 4rem;
+		align-items: center; 
+		border: 2px solid white;
 	  }
+
+	  @media screen and (max-width: 480px) {
+
+		#cert {
+			width: 100%;
+		}
+
+	}
