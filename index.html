@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Swaroop Meher Malina</title>
@@ -32,8 +27,8 @@
 						<ul class="links">
 							<li class="active"><a href="#main" class="scrolly">About</a></li>
 							<li><a href="#projects" class="scrolly">Projects</a></li>
-							<li><a href="https://drive.google.com/file/d/1Et5Cvsc_bqMrIRU861IcZI1RhJU5YsY-/view?usp=sharing" target="_blank">Resume</a></li>
-							<li><a href="https://medium.com/@Swaroop777/a-new-approach-for-semi-supervised-learning-in-computer-vision-511a92d1dd0d" target="_blank">Blog</a></li>
+							<li><a href="https://drive.google.com/file/d/1Et5Cvsc_bqMrIRU861IcZI1RhJU5YsY-/view?usp=sharing" target="_blank" class="scrolly">Resume</a></li>
+							<li><a href="https://medium.com/@Swaroop777/a-new-approach-for-semi-supervised-learning-in-computer-vision-511a92d1dd0d" target="_blank" class="scrolly">Blog</a></li>
 							<li><a href="#cert" class="scrolly">Certifications</a></li>
 							<li><a href="#contact" class="scrolly">Contact</a></li>
 
@@ -51,7 +46,7 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="#main"  class="scrolly" >HELLO!<br />
+									<h2><a href="#main">HELLO!<br />
 									I am Swaroop</a></h2>
 									<p>I am a data science enthusiast with two years of experience as a Data Analyst. I am currently pursuing a Master of Science in Applied Data Analytics at Boston University, and upon graduation, I aim to work as a Machine Learning Engineer or Data Scientist.</p>
 
@@ -68,7 +63,7 @@
 									<p class="hidden">Aside from my work, I am passionate about astronomy, quantum computing, and music. I believe that curiosity and the desire to learn are key to success in any field, and I strive to continue learning and growing as a professional in the field of Machine Learning.</p>
 								</header>
 								<ul class="actions special">
-									<li><button id="full-story-btn"  class="button large scrolly">Read more...</button></li>
+									<li><button id="full-story-btn"  class="button large">Read more...</button></li>
 								</ul>
 							</article>
 
@@ -185,6 +180,7 @@
 										<li><a href="" target="_blank" class="button">EXPLORE</a></li>
 									</ul>
 								</article>
+								<article></article>
 							</section>
 					</div>
 					<div id="cert">
@@ -262,41 +258,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				var fullStoryBtn = document.getElementById("full-story-btn");
-				var hiddenParagraphs = document.querySelectorAll(".hidden");
-				var isExpanded = false;
-			
-				fullStoryBtn.addEventListener("click", function() {
-				  if (!isExpanded) {
-					for (var i = 0; i < hiddenParagraphs.length; i++) {
-					  hiddenParagraphs[i].classList.add("show");
-					}
-					fullStoryBtn.textContent = "Hide";
-				  } else {
-					for (var i = 0; i < hiddenParagraphs.length; i++) {
-					  hiddenParagraphs[i].classList.remove("show");
-					}
-					fullStoryBtn.textContent = "Read more...";
-				  }
-				  isExpanded = !isExpanded;
-				});
-
-
-				window.onscroll = function() {myFunction()};
-
-				var navbar = document.getElementById("nav");
-				var sticky = navbar.offsetTop;
-
-				function myFunction() {
-				if (window.pageYOffset >= sticky) {
-					navbar.classList.add("sticky")
-				} else {
-					navbar.classList.remove("sticky");
-				}
-				}
-
-			</script>
 
 	</body>
 </html>
